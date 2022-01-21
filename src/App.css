@@ -1,0 +1,210 @@
+:root {
+  --main-font: "Frutiger Neue For Post";
+  --yellow: #fc0;
+  --black: #000;
+  --gray: #f4f3f1;
+}
+
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 700;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Bold.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Bold.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 700;
+  font-style: italic;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BdIt.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BdIt.woff")
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 500;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Md.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Md.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 500;
+  font-style: italic;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-MdIt.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-MdIt.woff")
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 400;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Rg.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Rg.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 400;
+  font-style: italic;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-It.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-It.woff")
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 350;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Book.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Book.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 350;
+  font-style: italic;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BkIt.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BkIt.woff")
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 300;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Lt.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Lt.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 300;
+  font-style: italic;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-LtIt.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-LtIt.woff")
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 200;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Thin.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Thin.woff")
+      format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Frutiger Neue For Post";
+  font-weight: 200;
+  font-style: italic;
+  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-ThIt.woff2")
+      format("woff2"),
+    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-ThIt.woff")
+      format("woff");
+  font-display: swap;
+}
+
+html {
+  transition: background-color 1s;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.wordbox {
+  border-radius: 15px;
+  text-align: right;
+  max-width: 600px;
+  min-width: 300px;
+  margin: auto;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  background-color: var(--gray);
+}
+
+@media (max-width: 768px) {
+  .wordbox {
+    max-width: 90%;
+    min-width: 0;
+    margin-top: 30%;
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  display: block;
+  animation: fadeIn 1s ease-out forwards;
+  color: black;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h3.when {
+  margin: 30px;
+  text-align: left;
+  font-weight: 500;
+}
+
+h5.condition {
+  margin: 30px;
+  font-weight: 300;
+}
+
+.generateButton {
+  margin: 30px;
+  position: relative;
+  border-radius: 7px;
+  border: 0;
+  height: 35px;
+  width: 100px;
+  font-weight: 500;
+  color: var(--black);
+  font-family: "Frutiger Neue For Post";
+  background-color: var(--yellow);
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+img.postLogo {
+  max-width: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
