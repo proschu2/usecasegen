@@ -185,8 +185,9 @@ h4.condition {
     border-radius: 7px;
     border: 0;
     height: 35px;
-    width: 100px;
+    width: 250px;
     font-weight: 500;
+    font-size: larger;
     color: var(--black);
     font-family: "Patrick Hand";
     background-color: var(--yellow);

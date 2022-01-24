@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSync } from "@fortawesome/free-solid-svg-icons";
 import React, { useEffect } from "react";
 import {
   /*   Cause,
@@ -38,20 +40,20 @@ const Generator = (props: GeneratorProps) => {
           {medium}, {reaction}
           {/* Informieren {getMedium(setting)} über {prod} */}
         </h4>
-
-        {/* <button
-          className="generateButton"
-          onClick={() => props.handleClick(props.combination)}
-        >
-          Generieren
-        </button> */}
       </div>
-      <img
-        src="magic-wand.png"
-        className="generateIcon"
-        alt="Generieren"
+
+      <button
+        className="generateButton"
         onClick={() => props.handleClick(props.combination)}
-      />
+      >
+        Generate new business rule{" "}
+        <FontAwesomeIcon icon={faSync} spin style={{ marginLeft: "10px" }} />
+        {/* <img
+          src="magic-wand.png"
+          alt="Generieren"
+          onClick={() => props.handleClick(props.combination)}
+        /> */}
+      </button>
     </div>
   );
 };
