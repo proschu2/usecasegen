@@ -46,7 +46,7 @@ const Generator = (props: GeneratorProps) => {
         className="generateButton"
         onClick={() => props.handleClick(props.combination)}
       >
-        Generate new business rule{" "}
+        Generate New Business Rule{" "}
         <FontAwesomeIcon icon={faSync} spin style={{ marginLeft: "10px" }} />
         {/* <img
           src="magic-wand.png"
