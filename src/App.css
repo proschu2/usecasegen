@@ -208,6 +208,11 @@ img.downArrow {
 
 img.subject {
     vertical-align: middle;
-    margin-inline-end: 5px;
-    max-height: 24px;
+    max-height: 36px;
+}
+
+img.generateIcon {
+    margin: 30px;
+    position: relative;
+    max-height: 36px;
 }

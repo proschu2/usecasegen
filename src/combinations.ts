@@ -115,6 +115,8 @@ export const reactions = [
   "um das Anliegen zu bestätigen.",
   "um auf die App aufmerksam zu machen.", //"um auf die Post-App aufmerksam zu machen.",
 ];
+
+export const icons = ["man", "woman", "man_2", "woman_2", "man_3", "woman_3"];
 /* 
 export const causes: Cause[] = [
   {
@@ -201,6 +203,7 @@ export interface Combination {
   reason: string;
   medium: string;
   reaction: string;
+  icon?: string;
 }
 
 export const getRandomElement = (
@@ -223,6 +226,7 @@ export const getRandomElement = (
       reason: getRandomElement((e as Combination).reason, reasons),
       medium: getRandomElement((e as Combination).medium, mediums),
       reaction: getRandomElement((e as Combination).reaction, reactions),
+      icon: getRandomElement((e as Combination).icon, icons),
     } as Combination;
   } else {
     // return a new combination from random elements
@@ -232,6 +236,7 @@ export const getRandomElement = (
       reason: getRandomElement(undefined, reasons) as string,
       medium: getRandomElement(undefined, mediums) as string,
       reaction: getRandomElement(undefined, reactions) as string,
+      icon: getRandomElement(undefined, icons) as string,
     } as Combination;
   }
 };
