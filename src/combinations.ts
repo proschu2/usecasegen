@@ -89,7 +89,7 @@ export const reasons = [
   "um den Preis für Expresssendungen zu prüfen",
   "um ein Paket weiterzuleiten",
   "um ein Postfach zu kündigen",
-  "um eine Vormallt zu erteilen",
+  "um eine Vollmacht zu erteilen",
   "um neuen Abholschein zu bestellen",
 ];
 
