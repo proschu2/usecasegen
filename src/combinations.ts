@@ -43,16 +43,16 @@ export interface Effect {
 ];
  */
 export const actions = [
-  "logt sich bei Post.ch ein",
+  "logt sich auf underer Webseite ein", //"logt sich bei Post.ch ein",
   "ruft den Kundendienst an",
-  "besucht eine Post-Filiale",
-  "öffnet die PostCard-Creator App",
+  "besucht eine Filiale", //"besucht eine Post-Filiale",
+  "öffnet die PCC App", //"öffnet die PostCard-Creator App",
   "chattet mit dem Kundendienst",
-  "schreibt der Post eine Email",
+  "schreibt uns eine Email", //"schreibt der Post eine Email",
   "meldet sich beim Kundenberater",
   "schreibt dem Chatbot eine Nachricht",
   "sendet eine Whatsapp-Nachricht",
-  "kommentiert einen Tweet der Post",
+  "kommentiert einen Tweet", //"kommentiert einen Tweet der Post",
 ];
 
 export const timings = [
@@ -91,7 +91,7 @@ export const mediums = [
   "schickt eine Email",
   "schickt eine Abfolge von Emails",
   "versendet einen Brief",
-  "ändert den Inhalt der Post.ch-Webseite",
+  "ändert den Inhalt der Webseite", //"ändert den Inhalt der Post.ch-Webseite",
   "reagiert mit einer SMS",
   "ruft am nächsten Vormittag an",
   "leitet die Anfrage intern weiter",
@@ -111,9 +111,9 @@ export const reactions = [
   "um Abklärungen zu starten.",
   "um weitere Informationen zu beschaffen.",
   "um persönlich zu beraten.",
-  "um über die PostCard-Creator App zu informieren.",
+  "um über die PCC App zu informieren.", //"um über die PostCard-Creator App zu informieren.",
   "um das Anliegen zu bestätigen.",
-  "um auf die Post-App aufmerksam zu machen.",
+  "um auf die App aufmerksam zu machen.", //"um auf die Post-App aufmerksam zu machen.",
 ];
 /* 
 export const causes: Cause[] = [

@@ -1,210 +1,213 @@
 :root {
-  --main-font: "Frutiger Neue For Post";
-  --yellow: #fc0;
-  --black: #000;
-  --gray: #f4f3f1;
+    --main-font: "Patrick Hand";
+    --yellow: #fc0;
+    --black: #000;
+    --gray: #f4f3f1;
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: "Patrick Hand";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/patrickhand/v14/LDI1apSQOAYtSuYWp8ZhfYe8UMLLubg58xGL.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: "Patrick Hand";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/patrickhand/v14/LDI1apSQOAYtSuYWp8ZhfYe8XsLLubg58w.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 700;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Bold.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Bold.woff")
-      format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 700;
-  font-style: italic;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BdIt.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BdIt.woff")
-      format("woff");
-  font-display: swap;
+    font-family: "Frutiger Neue For Post";
+    font-weight: 700;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Bold.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Bold.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 500;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Md.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Md.woff")
-      format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 500;
-  font-style: italic;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-MdIt.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-MdIt.woff")
-      format("woff");
-  font-display: swap;
+    font-family: "Frutiger Neue For Post";
+    font-weight: 700;
+    font-style: italic;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BdIt.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BdIt.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 400;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Rg.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Rg.woff")
-      format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 400;
-  font-style: italic;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-It.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-It.woff")
-      format("woff");
-  font-display: swap;
+    font-family: "Frutiger Neue For Post";
+    font-weight: 500;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Md.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Md.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 350;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Book.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Book.woff")
-      format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 350;
-  font-style: italic;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BkIt.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BkIt.woff")
-      format("woff");
-  font-display: swap;
+    font-family: "Frutiger Neue For Post";
+    font-weight: 500;
+    font-style: italic;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-MdIt.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-MdIt.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 300;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Lt.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Lt.woff")
-      format("woff");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 300;
-  font-style: italic;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-LtIt.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-LtIt.woff")
-      format("woff");
-  font-display: swap;
+    font-family: "Frutiger Neue For Post";
+    font-weight: 400;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Rg.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Rg.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 200;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Thin.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Thin.woff")
-      format("woff");
-  font-display: swap;
+    font-family: "Frutiger Neue For Post";
+    font-weight: 400;
+    font-style: italic;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-It.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-It.woff") format("woff");
+    font-display: swap;
 }
+
 @font-face {
-  font-family: "Frutiger Neue For Post";
-  font-weight: 200;
-  font-style: italic;
-  src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-ThIt.woff2")
-      format("woff2"),
-    url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-ThIt.woff")
-      format("woff");
-  font-display: swap;
+    font-family: "Frutiger Neue For Post";
+    font-weight: 350;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Book.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Book.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Frutiger Neue For Post";
+    font-weight: 350;
+    font-style: italic;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BkIt.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-BkIt.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Frutiger Neue For Post";
+    font-weight: 300;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Lt.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Lt.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Frutiger Neue For Post";
+    font-weight: 300;
+    font-style: italic;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-LtIt.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-LtIt.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Frutiger Neue For Post";
+    font-weight: 200;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Thin.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-Thin.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Frutiger Neue For Post";
+    font-weight: 200;
+    font-style: italic;
+    src: url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-ThIt.woff2") format("woff2"), url("https://fonts.post.ch/frutigerneueforpost/v2/FrutigerNeueforPostW05-ThIt.woff") format("woff");
+    font-display: swap;
 }
 
 html {
-  transition: background-color 1s;
+    transition: background-color 1s;
 }
 
 .container {
-  height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .wordbox {
-  border-radius: 15px;
-  text-align: right;
-  max-width: 600px;
-  min-width: 300px;
-  margin: auto;
-  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
-    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
-  background-color: var(--gray);
+    border-radius: 15px;
+    text-align: center;
+    min-width: 600px;
+    margin: auto;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    background-color: var(--gray);
 }
 
 @media (max-width: 768px) {
-  .wordbox {
-    max-width: 90%;
-    min-width: 0;
-    margin-top: 30%;
-  }
+    .wordbox {
+        max-width: 90%;
+        min-width: 0;
+        margin-top: 30%;
+    }
 }
 
 .fadeIn {
-  opacity: 0;
-  display: block;
-  animation: fadeIn 1s ease-out forwards;
-  color: black;
+    opacity: 0;
+    display: block;
+    animation: fadeIn 1s ease-out forwards;
+    color: black;
 }
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 h3.when {
-  margin: 30px;
-  text-align: left;
-  font-weight: 500;
+    margin: 30px;
+    text-align: left;
+    font-weight: 500;
 }
 
-h5.condition {
-  margin: 30px;
-  font-weight: 300;
+h4.condition {
+    margin: 30px;
+    font-weight: 400;
 }
 
 .generateButton {
-  margin: 30px;
-  position: relative;
-  border-radius: 7px;
-  border: 0;
-  height: 35px;
-  width: 100px;
-  font-weight: 500;
-  color: var(--black);
-  font-family: "Frutiger Neue For Post";
-  background-color: var(--yellow);
-  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
-    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    margin: 30px;
+    position: relative;
+    border-radius: 7px;
+    border: 0;
+    height: 35px;
+    width: 100px;
+    font-weight: 500;
+    color: var(--black);
+    font-family: "Patrick Hand";
+    background-color: var(--yellow);
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
 }
 
 img.postLogo {
-  max-width: 150px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+    max-width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+img.downArrow {
+    max-height: 32px;
+    margin: auto;
+    display: block;
+}
+
+img.subject {
+    vertical-align: middle;
+    margin-inline-end: 5px;
+    max-height: 24px;
 }

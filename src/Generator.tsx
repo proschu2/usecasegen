@@ -13,7 +13,6 @@ interface GeneratorProps {
 }
 
 const Generator = (props: GeneratorProps) => {
-
   useEffect(() => {
     console.log(`props changed: ${JSON.stringify(props.combination)}`);
     //setProd(getRandomElement(prod, products) as string);
@@ -23,16 +22,19 @@ const Generator = (props: GeneratorProps) => {
   return (
     <div className="wordbox">
       <div className="fadeIn" key={Math.random()} style={{ color: "black" }}>
-        <h3 className="when">Wenn KundIn</h3>
-        <h5 className="condition">
+        {/* <h3 className="when">Wenn KundIn</h3> */}
+        <h4 className="condition">
+          <img src="rating.png" className="subject" />
           {action}, {timing}, {reason}
           {/* {event} {getFrequency(frequency)} */}
-        </h5>
-        <h3 className="when">Die Post</h3>
-        <h5 className="condition">
+        </h4>
+        {/* <h3 className="when">Die Post</h3> */}
+        <img className="downArrow" src="down-arrow.png"></img>
+        <h4 className="condition">
+          <img className="subject" src="horn.png" />
           {medium}, {reaction}
           {/* Informieren {getMedium(setting)} über {prod} */}
-        </h5>
+        </h4>
         <button
           className="generateButton"
           onClick={() => props.handleClick(props.combination)}
