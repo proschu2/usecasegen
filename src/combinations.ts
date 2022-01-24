@@ -42,6 +42,12 @@ export interface Effect {
   "PostCard Creator",
 ];
  */
+import man from "./avatars/man.png";
+import man_2 from "./avatars/man_2.png";
+import man_3 from "./avatars/man_3.png";
+import woman from "./avatars/woman.png";
+import woman_2 from "./avatars/woman_2.png";
+import woman_3 from "./avatars/woman_3.png";
 export const actions = [
   "logt sich auf underer Webseite ein", //"logt sich bei Post.ch ein",
   "ruft den Kundendienst an",
@@ -116,7 +122,8 @@ export const reactions = [
   "um auf die App aufmerksam zu machen.", //"um auf die Post-App aufmerksam zu machen.",
 ];
 
-export const icons = ["man", "woman", "man_2", "woman_2", "man_3", "woman_3"];
+//export const icons = ["man", "woman", "man_2", "woman_2", "man_3", "woman_3"];
+export const icons = [man, woman, man_2, woman_2, man_3, woman_3];
 /* 
 export const causes: Cause[] = [
   {

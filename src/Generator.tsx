@@ -25,7 +25,7 @@ const Generator = (props: GeneratorProps) => {
         {/* <h3 className="when">Wenn KundIn</h3> */}
 
         <h4 className="condition">
-          <img src={`${icon}.png`} className="subject" alt="Kunde" />
+          <img src={icon} className="subject" alt="Kunde" />
           <br />
           {action}, {timing}, {reason}
           {/* {event} {getFrequency(frequency)} */}
